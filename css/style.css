@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: #00101f;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin: auto;
+    padding: 15px 0px;
+
+}
+ .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    text-transform: uppercase;
+    
+ }
+
+ .navbar a{
+    text-decoration: none;
+    color:#78828e;
+    font-weight: 700;
+    font-size: 15px;
+
+ }
+ .cop {
+    color: rgb(230, 104, 81);
+ }
+ .about{
+    margin-top: 50px;
+ }
+ .aboutin{
+    margin-top: 20px;
+    color:#78828e;
+ }
+ .about img{
+    border-radius: 50%;
+ }
+ img:hover{
+    filter: brightness(110%);
+ }
+ .btndr{
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    color:#78828e;
+    border: 1px solid #78828e;
+    transition:ease-in 0.5s;
+    
+ }
+ .btndr:hover{
+    border: 1px solid tomato;
+    color:tomato;
+ }
+
+.portfolio{
+    margin: 20px;
+        
+}
+.portfolio p{
+    color: #78828e;    
+}
+.port img{
+   height: auto;
+   width: 40%;
+   border-radius: 30px;
+   padding: 20px;
+   
+}
+.port img:hover{
+   filter: saturate(180%);
+}
+.port{
+   margin-left: 10%;
+}
+.experties  p{
+ padding: 10px;
+ color: #78828e;    
+}
+.cop-2{
+   color: #a00740;
+   font-weight:700;
+   letter-spacing: 1px;
+}
+.cop-3{
+ color: #78828e;    
+}
+.contact{
+   margin: 30px;
+}
+input,textarea{
+   background-color: #2b2b2b;
+   border: none;
+   margin: 2px;
+   padding: 3px;
+   color: white;
+}
+input:focus,textarea:focus{
+   outline: none;   
+}
+.cimage{
+ margin-left: 50%;
+ border-radius: 5%;
+}
+footer{
+   margin: 0;
+   background-color:#2b2b2b ;
+   text-align: center;
+   line-height: 30px;
+   
+}
